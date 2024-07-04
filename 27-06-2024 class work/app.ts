@@ -129,8 +129,9 @@ console.log(E2);
       // }
 
 
+
+//  IN CAPSULATION PRIVATE,PROTECTED,PUBLIC BY DEFAULT, 
 // STATIC
- 
      class bank2{
        private _balance:number
        static mypin:number = 1234
