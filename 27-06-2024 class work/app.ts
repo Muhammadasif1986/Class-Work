@@ -1,5 +1,5 @@
                       
-// STATIC
+
 
 //  class person {
 //       name:string
@@ -28,7 +28,7 @@
 //       }
 // }
 
-// let emp = new Employee('Asif', 35,35000)
+// let emp = new Employee('Asif', 35,55000)
 // console.log(emp);
 
 interface Employee{
@@ -82,12 +82,12 @@ console.log(
      }
       }
 
-let E2 = new Emp2('Asif', 123, 'Morning', 123,"asfi",true);
+let E2 = new Emp2('Asif', 123, 'Morning', 123,"asif",true);
 E2.getDetails()
 console.log(E2);
 
 
-
+// STATIC
       // class Bank{
       //       // _balance private in javascript
       //       private _balance:number
