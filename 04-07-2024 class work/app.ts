@@ -95,9 +95,29 @@ class Hp extends Laptop{
 let hp = new Hp("8GB", 15)
 console.log(hp);
 
+// Ternary operators
+// 1 define condition //let variable = (condition)?if condition: else condition
+// 2 if statement 
+// 3 else statement
+let result = (5<6)?true:false;
+console.log(result);
 
 
+let Teacher:string = "female"
+let result2 = (Teacher == "male")? "He is a sir" : "She is a miss";
+console.log(result2);
+
+let age = 18
+let result3 = (age >= 18)? "Adult" : "Not Adult";
+console.log(result3);
 
 
+// undefined//  value is not defined assign in future
+// null //  but not assign in future intentionally define value null
+let a // undefined
+a=5
+console.log(a);
 
+let b = null
+console.log(b);
 

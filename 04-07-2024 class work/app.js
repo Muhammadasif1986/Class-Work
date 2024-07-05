@@ -63,13 +63,39 @@ class Laptop {
         this.ram = ram;
         this.screen = screen;
     }
+    // non abstract method
+    poweroff() {
+        console.log("Powering off"); //not necessary in child class
+    }
 }
-// making a object/intens on Abstract class
+// Not make a object/intens on Abstract class
 // let hp = new Laptop("8GB", 15) // showing Error due to abstract class 
 class Hp extends Laptop {
     constructor(ram, screen) {
         super(ram, screen);
     }
+    display() {
+        console.log("LED");
+    }
 }
 let hp = new Hp("8GB", 15);
 console.log(hp);
+// Ternary operators
+// 1 define condition //let variable = (condition)?if condition: else condition
+// 2 if statement 
+// 3 else statement
+let result = (5 < 6) ? true : false;
+console.log(result);
+let Teacher = "female";
+let result2 = (Teacher == "male") ? "He is a sir" : "She is a miss";
+console.log(result2);
+let age = 18;
+let result3 = (age >= 18) ? "Adult" : "Not Adult";
+console.log(result3);
+// undefined//  value is not defined assign in future
+// null //  but not assign in future intentionally define value null
+let a; // undefined
+a = 5;
+console.log(a);
+let b = null;
+console.log(b);
