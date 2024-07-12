@@ -1,3 +1,5 @@
+// return
+
 // function Name():string{
 //     console.log("Ali");// for human read able
 //     return "Ali" // for java script Read able

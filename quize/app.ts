@@ -20,3 +20,4 @@ console.log(myNum);
 function myFunc(name:string):string{
     return `Good Morning ${name}`
     }
+

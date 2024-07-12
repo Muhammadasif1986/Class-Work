@@ -35,7 +35,7 @@
 // const temp2 = new ACTemp2(25) // (new) keyword make Object and call the constructor
 // // console.log(temp2._temp); // due to protected we can't access the temp outside the class only use in child class
 
-// // POLYMORPHISM / METHOD OVERRIDINGP
+// // POLYMORPHISM / METHOD OVERRIDING
 // // POLY = MANY
 // // MORPHISM = FORMS
 // class Animal {
